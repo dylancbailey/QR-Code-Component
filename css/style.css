@@ -324,13 +324,27 @@ body {
   font-weight: 400;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 .card {
-  width: 100%;
-  max-width: 320px;
+  width: 300px;
   height: 500px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 20px;
+  padding: 1rem;
 }
 .card-qr {
-  width: 50%;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
