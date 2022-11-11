@@ -317,5 +317,20 @@ template {
 /* Card Component
    ========================================================================== 
 */
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+  height: 500px;
+}
+.card-qr {
+  width: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */

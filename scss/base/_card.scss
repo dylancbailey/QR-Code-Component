@@ -5,3 +5,20 @@
 @use 'colors' as *;
 @use 'typography' as *;
 
+body {
+    background-color: $light-gray;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+}
+
+.card {
+    width: 100%;
+    max-width: 320px;
+    height: 500px;
+
+    &-qr {
+        width: 50%;
+    }
+}
+
